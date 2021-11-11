@@ -1,6 +1,14 @@
 <template>
   <div class="buildpc">
-    <Top />
+    <div class="top section-over1">
+      <div class="container ">
+        <div class="row justify-content-center">
+          <div class="hero-caption">
+              <h2>Build PC</h2>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="centerx">
       <vs-popup fullscreen :title="category" :active.sync="popup">
         <div class="container">
@@ -529,7 +537,7 @@
 
 <script>
 import axios from "axios";
-import Top from "../components/Top.vue";
+// import Top from "../components/Top.vue";
 // import { VueperSlides, VueperSlide } from "vueperslides";
 import "vueperslides/dist/vueperslides.css";
 // import Breadcrumb from "../components/Breadcrumb.vue";
@@ -641,9 +649,6 @@ export default {
         return d.typeID == "F01";
       });
     });
-  },
-  components: {
-    Top,
   },
 };
 </script>
