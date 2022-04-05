@@ -21,7 +21,7 @@
               <img :src="require('../assets/img/rec/' + data.img)"/>
               <div class="caption-rec">
                 <h3>
-                  <a href="">{{ data.name }}</a>
+                  <a href="/product">{{ data.name }}</a>
                 </h3>
                 <span>{{ data.price }}</span>
               </div>

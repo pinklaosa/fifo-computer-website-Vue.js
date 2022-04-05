@@ -18,9 +18,9 @@
           <div class="mt-1 p-2 pr-4">
             <router-link to="/about">CONTACT</router-link>
           </div>
-          <div class="mt-1 p-2 pr-4">
+          <!-- <div class="mt-1 p-2 pr-4">
             <a href="#" @click="activePrompt = true">API</a>
-          </div>
+          </div> -->
           <vs-prompt
             @cancel="nameapi = ''"
             @accept="acceptApi"
